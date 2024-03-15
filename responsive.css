@@ -1,0 +1,249 @@
+@media only screen and (max-width: 768px) {
+  .box2-ina h1 {
+    padding-bottom: 20px;
+    font-size: 25px;
+  }
+
+  .box3 {
+    width: 100%;
+  }
+
+  .box3-p {
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+    text-align: center;
+  }
+
+  .aboutme {
+    padding: 10px;
+  }
+
+  .box5-in {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .box5-in1 {
+    width: 100%;
+  }
+
+  .box6-in {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .main {
+    width: 100%;
+  }
+  .box1 {
+    width: 100%;
+  }
+
+  .box1-in1 {
+    width: 30%;
+  }
+  .box1-in1 p {
+    font-size: 12px;
+    display: flex;
+    align-items: start;
+    padding-right: 30px;
+  }
+
+  .box1-in2 {
+    width: 70%;
+  }
+
+  .html-template1,
+  .html-template2 {
+    width: 30%;
+    padding: 5px;
+    display: flex;
+    flex-wrap: row wrap;
+  }
+
+  #template1 {
+    font-size: 10px;
+  }
+  .box1-button {
+    padding-left: 12px;
+    width: 33%;
+  }
+  .box1-button button {
+    font-size: 10px;
+  }
+
+  .html-template1:hover,
+  .html-template2:hover {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 38%;
+  }
+
+  .box2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .box2-in1 {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .box2-in2 {
+    width: 100%;
+  }
+
+  .box4 {
+    width: 100%;
+  }
+
+  .box4-in p {
+    font-size: 19px;
+  }
+
+  .box5 {
+    width: 100%;
+  }
+
+  .box5-p1 p {
+    font-size: 70%;
+  }
+
+  .box6 {
+    width: 100%;
+  }
+
+  .div2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+#burger-menu {
+    cursor: pointer;
+    height: 27px;
+    width: 27px;
+    margin: 15px;
+    /* overflow: visible; */
+    position: relative;
+    
+  }
+  #burger-menu span,
+  #burger-menu span:before,
+  #burger-menu span:after {
+    background: rgb(2, 183, 255);
+    display: block;
+    height: 2px;
+    opacity: 1;
+    position: absolute;
+    transition: 0.3s ease-in-out;
+  }
+  #burger-menu span:before,
+  #burger-menu span:after {
+    content: "";
+  }
+  #burger-menu span:before {
+    left: 0px;
+    top: -10px;
+    width: 27px;
+  }
+  #burger-menu span {
+    right: 0px;
+    top: 13px;
+    width: 27px;
+  }
+  #burger-menu span:after {
+    left: 0px;
+    top: 10px;
+    width: 27px;
+  }
+  #burger-menu.close span:before {
+    top: 0px;
+    transform: rotate(90deg);
+    width: 27px;
+  }
+  #burger-menu.close span {
+    transform: rotate(-45deg);
+    top: 13px;
+    width: 27px;
+  }
+  #burger-menu.close span:after {
+    top: 0px;
+    left: 0;
+    transform: rotate(60deg);
+    opacity: 0;
+    width: 0;
+  }
+  #box1-id {
+    position: fixed;
+    visibility: hidden;
+    padding-bottom: 20px;
+    text-align: center;
+    transition:  all 0.2s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #box1-id.overlay {
+    width: 90.5%;
+    height: 22vh;
+    opacity: 2;
+    visibility: visible;
+    background:rgb(186, 220, 234);
+  }
+}
+
+@media only screen and (max-width: 376px) {
+
+  .box4-in{
+    padding: 50px;
+  }
+  .box4-in p {
+    font-size: 16px;
+  }
+
+  .box7-div1 p {
+    font-size: 20px;
+    padding: 0px;
+  }
+
+  .box3-in {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.1),
+        rgba(0, 0, 0, 0.1),
+        rgba(0, 0, 0, 0.1)
+      ),
+      url(https://c0.wallpaperflare.com/preview/16/879/767/clouds-blue-sky-blue-sky-background-fluffy.jpg);
+  }
+
+  .box3-p {
+    font-size: 15px;
+    font-weight: 500;
+
+  }
+
+  #box1-id.overlay{
+    width: 89.5%;
+  }
+}
+
+@media only screen and (max-width: 335px){
+  .box4-in p{
+    font-size: 16px;
+  } 
+}
+
+@media only screen and (max-width: 320px){
+#box1-id.overlay{
+  width: 87.5%;
+}
+
+.box4-in p {
+  font-size: 15px;
+}
+
+}
